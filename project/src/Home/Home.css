@@ -1,0 +1,34 @@
+.Home {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.Home .button {
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: #282c34;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    height: 100px;
+    width: 200px;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5 ease-in-out;
+}
+
+.Home .button:hover {
+    background-color: #0069D9;
+    color: white;
+}

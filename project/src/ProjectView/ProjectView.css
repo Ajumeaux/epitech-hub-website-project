@@ -1,0 +1,105 @@
+.project-preview {
+    padding: 18px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-part {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    padding: 0 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.project-preview > * {
+    margin-bottom: 18px;
+}
+
+.project-preview > *:last-child {
+    margin-bottom: 0;
+}
+
+.project-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.project-description {
+    font-size: 1rem;
+    color: #666;
+}
+
+.project-context {
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.project-goal {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.project-steps {
+    font-size: 1rem;
+    color: #666;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.project-steps .step-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.project-timeline {
+    display: flex;
+    color: #666;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.project-xp {
+    font-size: 1rem;
+    color: #666;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+.project-workers {
+    font-size: 1rem;
+    color: #666;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+.project-completed {
+    font-size: 1rem;
+    color: #666;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
